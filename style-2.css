@@ -1,0 +1,45 @@
+.Container-Flex{
+    display: inline-flex;
+    height: 700px;
+    width: 700px;
+    margin: 0;
+    box-sizing: content-box;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 33vw;
+}
+
+
+
+
+.Item-flex{
+    height: 233px;
+    width: 233px;
+    background-color: blue;
+    margin: 0;
+
+
+}
+
+.Item-flex:first-child{
+    background-color: red;
+   
+}
+
+.Item-flex:last-child{
+    background-color: green;
+   
+}
+
+p{
+    position: relative;
+    top: 112px;
+    margin: 0;
+    padding: 0;
+}

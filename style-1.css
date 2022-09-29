@@ -1,0 +1,42 @@
+.Container-Flex{
+    display: flex;
+    height: 150px;
+    width: 700px;
+    margin: 0;
+    box-sizing: content-box;
+    border: 3px solid black;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    left: 33vw;
+}
+
+
+
+
+.Item-flex{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    margin: 0;
+
+}
+
+.Item-flex:first-child{
+    background-color: red;
+   
+}
+
+.Item-flex:last-child{
+    background-color: green;
+   
+}
+
+p{
+    position: relative;
+    top: 65px;
+    margin: 0;
+    padding: 0;
+}
